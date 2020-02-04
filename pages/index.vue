@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <h1>A stats/memory tracker of my time at iCS/GSW</h1>
-      <p>In the last {{ totalTenure }} there have been a lot of moments. Here are some of the highlights.</p>
+      <h1>A stats/memory tracker of my time at GSW</h1>
+      <p>In the {{ totalTenure }} that I've been at GSW, there have been a lot of moments. Here are some of the highlights.</p>
       <ul>
         <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}. Since then I've held {{ titlesCount }} different titles.</li>
         <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces.</li>
@@ -203,9 +203,10 @@ export default {
       const endDate = moment(this.endTenure)
 
       let totalTenure = moment.duration(startDate.diff(endDate))
-      const years = totalTenure._data.years
-      const months = totalTenure._data.months
-      const days = totalTenure._data.days
+      const years = totalTenure._data.years.toString().replace(/-/g, '')
+      const months = totalTenure._data.months.toString().replace(/-/g, '')
+      const days = totalTenure._data.days.toString().replace(/-/g, '')
+
       totalTenure = years + ' years, ' + months + ' months, and ' + days + ' days'
 
       return totalTenure
