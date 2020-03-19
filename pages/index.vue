@@ -8,6 +8,10 @@
         <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces.</li>
         <li>Seen {{ mergers }} merger(s) and {{ acquistions }} acquistion(s).</li>
         <li>Worked under {{ bosses }} different bosses.</li>
+        <li
+          v-if="pitchWinPercentage > 0">
+          Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
+        </li>
         <li>Had {{ developerCount }} developers report into me at one point in time.</li>
         <li>Had {{ children }} kids.</li>
         <li>Attended {{ conferenceCount }} conferences</li>
@@ -37,6 +41,8 @@ export default {
       presidents: 2,
       bosses: 3,
       children: 2,
+      pitches: 1,
+      pitchesWon: 0,
       titles: [
         {
           company: 'inVentiv Creative Studios',
@@ -176,6 +182,15 @@ export default {
     }
   },
   computed: {
+    pitchWinPercentage () {
+      const calc = this.pitches / this.pitchesWon
+      console.log(calc)
+      if (typeof calc === 'number' && calc !== Infinity) {
+        return calc
+      } else {
+        return 0
+      }
+    },
     conferenceCount () {
       return this.conferences.length
     },
