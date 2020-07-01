@@ -5,23 +5,55 @@
       <p>In the {{ totalTenure }} that I've been at GSW, there have been a lot of moments. Here are some of the highlights.</p>
       <ul>
         <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}. Since then I've held {{ titlesCount }} different titles.</li>
-        <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces.</li>
-        <li>Seen {{ mergers }} merger(s) and {{ acquistions }} acquistion(s).</li>
+        <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces ({{ homeDesks }} of which were home offices).</li>
+        <li>Seen {{ mergers }} merger(s) and {{ acquisitions }} acquisition(s).</li>
         <li>Worked under {{ bosses }} different bosses.</li>
+        <li>Had {{ managingDirectors }} managing directors.</li>
         <li
-          v-if="pitchWinPercentage > 0">
+          v-if="pitchWinPercentage > 0"
+        >
           Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
         </li>
         <li>Had {{ developerCount }} developers report into me at one point in time.</li>
         <li>Had {{ children }} kids.</li>
-        <li>Attended {{ conferenceCount }} conferences</li>
+        <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
+        <li
+          v-if="pandemicCount === 1"
+        >
+          Survived {{ pandemicCount }} pandemic (
+          <span
+            v-for="(pandemic, index) in pandemics"
+            :key="index"
+          >
+            {{ pandemic }}
+          </span>
+          )...and {{ quarantine }} months in quarantine.*
+        </li>
+        <li
+          v-else
+        >
+          Survived {{ pandemicCount }} pandemics (
+          <span
+            v-for="(pandemic, index) in pandemics"
+            :key="index"
+          >
+            {{ pandemic }},
+          </span>
+          ).
+        </li>
+        <li>There have been {{ usaPresidents }} US Presidents.</li>
       </ul>
       <!-- TODO: Something Cool -->
       <!-- Create AR marker and display on website
       Provide instructions to view website on phone
       Either use the AR marker displayed on website, OR print out marker (provide download)
       AR Headshot with contact information -->
+      <p
+        class="footnote"
+      >
+        *Assumes that I didn't go back into the office from March 2020 - January 2021.
+      </p>
     </div>
   </div>
 </template>
@@ -32,13 +64,15 @@ import moment from 'moment'
 export default {
   data () {
     return {
-      desks: 11,
-      officeSpaces: 4,
+      desks: 14,
+      homeDesks: 3,
+      officeSpaces: 7,
+      homeOffices: 3,
       companies: 2,
       mergers: 1,
-      acquistions: 1,
-      managingDirectors: 2,
-      presidents: 2,
+      acquisitions: 1,
+      managingDirectors: 5,
+      companyPresidents: 4,
       bosses: 3,
       children: 2,
       pitches: 1,
@@ -97,7 +131,8 @@ export default {
         'Zach Kramer',
         'Greg V',
         'Fiana',
-        'Amulya'
+        'Amulya',
+        'Ted Moke'
       ],
       conferences: [
         {
@@ -178,18 +213,25 @@ export default {
           certificationStart: 'May 2017',
           certificationEnd: 'May 2018'
         }
-      ]
+      ],
+      pandemics: [
+        'COVID-19'
+      ],
+      quarantine: 10,
+      usaPresidents: 2
     }
   },
   computed: {
     pitchWinPercentage () {
       const calc = this.pitches / this.pitchesWon
-      console.log(calc)
       if (typeof calc === 'number' && calc !== Infinity) {
         return calc
       } else {
         return 0
       }
+    },
+    pandemicCount () {
+      return this.pandemics.length
     },
     conferenceCount () {
       return this.conferences.length
@@ -265,6 +307,10 @@ h1 {
 
 p {
   margin-bottom: 15px;
+}
+
+p.footnote {
+  font-size: 14px;
 }
 
 ul {
