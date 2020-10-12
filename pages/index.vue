@@ -18,6 +18,7 @@
         <li>Had {{ children }} kids.</li>
         <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
+        <li>Launched over {{ websitesCount }} websites.</li>
         <li
           v-if="pandemicCount === 1"
         >
@@ -77,6 +78,42 @@ export default {
       children: 2,
       pitches: 1,
       pitchesWon: 0,
+      websites: [
+        'belbuca hcp',
+        'belbuca patient',
+        'supprelin la patient',
+        'supprelin la hcp',
+        'spritam hcp',
+        'spritam patient',
+        'radicava hcp',
+        'radicava patient',
+        'xiaflex dc hcp',
+        'xiaflex dc patient',
+        'xiaflex pd hcp',
+        'xiaflex pd patient',
+        'endo mens health',
+        'stendra hcp',
+        'stendra patient',
+        'hqblitz',
+        'xtra kickstarts',
+        'axid hcp',
+        'unithroid hcp',
+        'unithroid patient',
+        'vitrisa corp',
+        'legend bio corp',
+        'aveed patient',
+        'aveed hcp',
+        'radicava webinar unbranded',
+        'radicava webinar branded',
+        'dompe dse',
+        'moors clinical trials',
+        'lialda 10 year',
+        'built for me',
+        'airduo',
+        'armonair',
+        'qvar',
+        'dont take vat',
+      ],
       titles: [
         {
           company: 'inVentiv Creative Studios',
@@ -266,6 +303,9 @@ export default {
       } else {
         return 0
       }
+    },
+    websitesCount () {
+      return this.websites.length
     },
     pandemicCount () {
       return this.pandemics.length
