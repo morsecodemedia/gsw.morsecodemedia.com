@@ -132,7 +132,8 @@ export default {
         'Greg V',
         'Fiana',
         'Amulya',
-        'Ted Moke'
+        'Ted Moke',
+        'Anthony Clever'
       ],
       conferences: [
         {
@@ -154,9 +155,45 @@ export default {
         {
           name: 'VueConf.us',
           year: '2018'
+        },
+        {
+          name: 'Connect.tech',
+          year: '2020'
+        },
+        {
+          name: 'Pluralsight LIVE',
+          year: '2020'
+        },
+        {
+          name: 'JAMStack Conf',
+          year: '2020'
+        },
+        {
+          name: 'Headless Commerce Summit',
+          year: '2020'
+        },
+        {
+          name: 'Alexa Live',
+          year: '2020'
+        },
+        {
+          name: 'Litmus Live',
+          year: '2020'
+        },
+        {
+          name: 'AWS Summit Americas',
+          year: '2020'
         }
+
       ],
       certifications: [
+        {
+          certification: 'CLM Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'September 2020',
+          certificationEnd: 'September 2021'
+        },
         {
           certification: 'Digital Marketing Analytics',
           organization: 'MIT Sloan School of Management',
@@ -208,7 +245,7 @@ export default {
         },
         {
           certification: 'Veeva MyInsights',
-          organization: 'Veeva',
+          organization: 'Veeva Systems',
           organizationLogo: '',
           certificationStart: 'May 2017',
           certificationEnd: 'May 2018'
