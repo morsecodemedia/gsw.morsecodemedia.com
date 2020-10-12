@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="stats">
       <h1>A stats/memory tracker of my time at GSW</h1>
       <p>In the {{ totalTenure }} that I've been at GSW, there have been a lot of moments. Here are some of the highlights.</p>
       <ul>
@@ -55,6 +55,15 @@
       >
         *Assumes that I didn't go back into the office from March 2020 - January 2021.
       </p>
+
+      <div class="contact-information">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> brandon [at] morsecodemedia [dot] com</p>
+        <p><strong>Website:</strong> <a href="https://www.morsecodemedia.com/" target="_blank">www.morsecodemedia.com</a></p>
+        <p><strong>Blog:</strong> <a href="https://blog.morsecodemedia.com/" target="_blank">blog.morsecodemedia.com</a></p>
+        <p><strong>Github:</strong> <a href="https://github.com/morsecodemedia" target="_blank">morsecodemedia</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brandonmorse/" target="_blank">linkedin.com/brandonmorse</a></p>
+      </div>
     </div>
   </div>
 </template>
@@ -112,7 +121,7 @@ export default {
         'airduo',
         'armonair',
         'qvar',
-        'dont take vat',
+        'dont take vat'
       ],
       titles: [
         {
@@ -369,14 +378,23 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: left;
+  padding: 20px 30px;
 }
 
 h1 {
   font-weight: 300;
   font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 36px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
