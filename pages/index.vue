@@ -18,7 +18,7 @@
         <li>Had {{ children }} kids.</li>
         <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
-        <li>Launched over {{ websitesCount }} websites.</li>
+        <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*</li>
         <li
           v-if="pandemicCount === 1"
         >
@@ -29,7 +29,7 @@
           >
             {{ pandemic }}
           </span>
-          )...and {{ quarantine }} months in quarantine.*
+          )...and {{ quarantine }} months in quarantine.<sup>&dagger;</sup>
         </li>
         <li
           v-else
@@ -53,7 +53,12 @@
       <p
         class="footnote"
       >
-        *Assumes that I didn't go back into the office from March 2020 - January 2021.
+        *I didn't bother to start tracking everything until my 5th year at GSW, so I'm sure I'm forgetting projects.
+      </p>
+      <p
+        class="footnote"
+      >
+        <sup>&dagger;</sup>Assumes that I didn't go back into the office from March 2020 - January 2021.
       </p>
 
       <div class="contact-information">
@@ -122,6 +127,55 @@ export default {
         'armonair',
         'qvar',
         'dont take vat'
+      ],
+      ivas: [
+        'mtpa human body en-us',
+        'mtpa human body fr-ca',
+        'mtpa human body en-ca',
+        'radicava main',
+        'celgene r2',
+        'endo xpd pd exchange',
+        'aerie rocklatan',
+        'aerie rhopressa',
+        'mtpa radicava main',
+        'shire vyvanse adha',
+        'shire mydayis',
+        'acerus natesto',
+        'agile twirla main',
+        'agile twirla resource library',
+        'j&j zyrtec',
+        'j&j aveeno',
+        'shire lialda 10yr',
+        'shire lialda main',
+        'mtpa radicava aan',
+        'mtpa radicava hcp guide',
+        'mtpa radicava mode of infusion',
+        'mtpa radicava patient profiles',
+        'mtpa radicava video library',
+        'aerie formulary tool',
+        'aerie myinsights dashboard',
+        'mtpa radicava access coverage',
+        'thera egrifta main',
+        'thera egrifta unbranded vat',
+        'shire vyvanse access and affordability'
+      ],
+      confPanels: [
+        'rad 1',
+        'rad 2',
+        'rad 3',
+        'rad 4',
+        'shire 1',
+        'xdc 1',
+        'xdc 2',
+        'xdc 3',
+        'xpd 1',
+        'edex 1',
+        'valstar 1',
+        'aveed 1',
+        'testopel 1',
+        'emh 1',
+        'xpd 2',
+        'xpd 3'
       ],
       titles: [
         {
@@ -315,6 +369,12 @@ export default {
     },
     websitesCount () {
       return this.websites.length
+    },
+    ivaCount () {
+      return this.ivas.length
+    },
+    confPanelCount () {
+      return this.confPanels.length
     },
     pandemicCount () {
       return this.pandemics.length
