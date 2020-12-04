@@ -79,10 +79,10 @@ import moment from 'moment'
 export default {
   data () {
     return {
-      desks: 14,
-      homeDesks: 3,
+      desks: 15,
+      homeDesks: 4,
       officeSpaces: 7,
-      homeOffices: 3,
+      homeOffices: 4,
       companies: 2,
       mergers: 1,
       acquisitions: 1,
@@ -157,7 +157,8 @@ export default {
         'mtpa radicava access coverage',
         'thera egrifta main',
         'thera egrifta unbranded vat',
-        'shire vyvanse access and affordability'
+        'shire vyvanse access and affordability',
+        'iber bms beam'
       ],
       confPanels: [
         'rad 1',
@@ -261,6 +262,10 @@ export default {
           year: '2020'
         },
         {
+          name: 'VueConf Toronto',
+          year: '2020'
+        },
+        {
           name: 'Pluralsight LIVE',
           year: '2020'
         },
@@ -283,10 +288,21 @@ export default {
         {
           name: 'AWS Summit Americas',
           year: '2020'
+        },
+        {
+          name: 'AWS:reInvent',
+          year: '2020'
         }
 
       ],
       certifications: [
+        {
+          certification: 'Certified Professional in Accessibility Core Competencies (CPACC)',
+          organization: 'IAAP',
+          organizationLogo: '',
+          certificationStart: 'October 2020',
+          certificationEnd: 'October 2023'
+        },
         {
           certification: 'CLM Technical Certification',
           organization: 'Veeva Systems',
