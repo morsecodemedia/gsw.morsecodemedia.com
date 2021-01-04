@@ -14,7 +14,7 @@
         >
           Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
         </li>
-        <li>Had {{ developerCount }} developers report into me at one point in time.</li>
+        <li>Led over {{ developerCount }} developers.</li>
         <li>Had {{ children }} kids.</li>
         <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
@@ -223,6 +223,7 @@ export default {
         'Sheetal',
         'Neema',
         'Steph Mitterko',
+        'Rich Mccaulsky-Clarke',
         'Mike Halat',
         'Mike K',
         'Lance',
