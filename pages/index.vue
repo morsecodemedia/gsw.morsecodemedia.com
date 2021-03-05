@@ -58,7 +58,7 @@
       <p
         class="footnote"
       >
-        <sup>&dagger;</sup>Assumes that I didn't go back into the office from March 2020 - January 2021.
+        <sup>&dagger;</sup>Assumes that I didn't go back into the office from March 2020 - July 2021.
       </p>
 
       <div class="contact-information">
@@ -126,7 +126,9 @@ export default {
         'airduo',
         'armonair',
         'qvar',
-        'dont take vat'
+        'dont take vat',
+        'natesto patient',
+        'natesto hcp'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -135,8 +137,12 @@ export default {
         'radicava main',
         'celgene r2',
         'endo xpd pd exchange',
-        'aerie rocklatan',
-        'aerie rhopressa',
+        'aerie rocklatan v1',
+        'aerie rhopressa v1',
+        'aerie rocklatan v2',
+        'aerie rhopressa v2',
+        'aerie rocklatan v3',
+        'aerie rhopressa v3',
         'mtpa radicava main',
         'shire vyvanse adha',
         'shire mydayis',
@@ -371,8 +377,8 @@ export default {
       pandemics: [
         'COVID-19'
       ],
-      quarantine: 10,
-      usaPresidents: 2
+      quarantine: 16,
+      usaPresidents: 3
     }
   },
   computed: {
