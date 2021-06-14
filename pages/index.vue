@@ -29,7 +29,7 @@
           >
             {{ pandemic }}
           </span>
-          )...and {{ quarantine }} months in quarantine.<sup>&dagger;</sup>
+          )
         </li>
         <li
           v-else
@@ -54,11 +54,6 @@
         class="footnote"
       >
         *I didn't bother to start tracking everything until my 5th year at GSW, so I'm sure I'm forgetting projects.
-      </p>
-      <p
-        class="footnote"
-      >
-        <sup>&dagger;</sup>Assumes that I didn't go back into the office from March 2020 - July 2021.
       </p>
 
       <div class="contact-information">
@@ -128,7 +123,9 @@ export default {
         'qvar',
         'dont take vat',
         'natesto patient',
-        'natesto hcp'
+        'natesto hcp',
+        'exservan hcp',
+        'plenity kitchen virtual booth'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -164,7 +161,9 @@ export default {
         'thera egrifta main',
         'thera egrifta unbranded vat',
         'shire vyvanse access and affordability',
-        'iber bms beam'
+        'iber bms beam',
+        'aerie dynamic formulaerie tool',
+        'gelesis plenity main'
       ],
       confPanels: [
         'rad 1',
