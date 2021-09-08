@@ -83,7 +83,7 @@ export default {
       acquisitions: 1,
       managingDirectors: 5,
       companyPresidents: 4,
-      bosses: 3,
+      bosses: 4,
       children: 2,
       pitches: 1,
       pitchesWon: 0,
@@ -125,7 +125,11 @@ export default {
         'natesto patient',
         'natesto hcp',
         'exservan hcp',
-        'plenity kitchen virtual booth'
+        'plenity kitchen virtual booth',
+        'amgen congresses',
+        'api.radicavacarelocator.com',
+        'api.hqblitz.com',
+        'api.natesto.com'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -163,7 +167,9 @@ export default {
         'shire vyvanse access and affordability',
         'iber bms beam',
         'aerie dynamic formulaerie tool',
-        'gelesis plenity main'
+        'gelesis plenity main v1.0',
+        'gelesis plenity main v1.1',
+        'gelesis plenity main v1.2'
       ],
       confPanels: [
         'rad 1',
@@ -240,7 +246,9 @@ export default {
         'Fiana',
         'Amulya',
         'Ted Moke',
-        'Anthony Clever'
+        'Anthony Clever',
+        'Vinny Di Cairano',
+        'Greg Jaspen'
       ],
       conferences: [
         {
