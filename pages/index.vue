@@ -306,6 +306,14 @@ export default {
         {
           name: 'AWS:reInvent',
           year: '2020'
+        },
+        {
+          name: 'GitLab Commit',
+          year: '2021'
+        },
+        {
+          name: 'Nuxt Nation',
+          year: '2021'
         }
 
       ],
