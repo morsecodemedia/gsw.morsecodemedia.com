@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="stats">
-      <h1>A stats/memory tracker of my time at GSW</h1>
+      <h1>A stats/memory tracker of my time at inVentiv Creative Studios / GSW Philadelphia / GSW East</h1>
       <p>In the {{ totalTenure }} that I've been at GSW, there have been a lot of moments. Here are some of the highlights.</p>
       <ul>
         <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}. Since then I've held {{ titlesCount }} different titles.</li>
@@ -81,7 +81,7 @@ export default {
       companies: 2,
       mergers: 1,
       acquisitions: 1,
-      managingDirectors: 5,
+      managingDirectors: 6,
       companyPresidents: 4,
       bosses: 4,
       children: 2,
@@ -129,7 +129,8 @@ export default {
         'amgen congresses',
         'api.radicavacarelocator.com',
         'api.hqblitz.com',
-        'api.natesto.com'
+        'api.natesto.com',
+        'amgencongresses.com (VCP)'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -243,12 +244,14 @@ export default {
         'Todd Juro',
         'Zach Kramer',
         'Greg V',
-        'Fiana',
+        'Fiana G',
         'Amulya',
         'Ted Moke',
         'Anthony Clever',
         'Vinny Di Cairano',
-        'Greg Jaspen'
+        'Greg Jaspen',
+        'Max Currier',
+        'Lan Zhang'
       ],
       conferences: [
         {
@@ -313,6 +316,10 @@ export default {
         },
         {
           name: 'Nuxt Nation',
+          year: '2021'
+        },
+        {
+          name: 'Vue Nation',
           year: '2021'
         }
 
@@ -392,7 +399,7 @@ export default {
       pandemics: [
         'COVID-19'
       ],
-      quarantine: 16,
+      quarantine: 19,
       usaPresidents: 3
     }
   },
