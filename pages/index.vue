@@ -125,12 +125,16 @@ export default {
         'natesto patient',
         'natesto hcp',
         'exservan hcp',
-        'plenity kitchen virtual booth',
-        'amgen congresses',
+        'plenitykitchen.com',
         'api.radicavacarelocator.com',
         'api.hqblitz.com',
         'api.natesto.com',
-        'amgencongresses.com (VCP)'
+        'amgencongresses.com (VCP)',
+        'omeras yartelmea ves site',
+        'omeras dse ves site',
+        'astellas zolbe dse site (may 2022)',
+        'takeda cuvitru hcp (q1 2022)',
+        'takeda hyqvia hcp (q1 2022)'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -170,7 +174,9 @@ export default {
         'aerie dynamic formulaerie tool',
         'gelesis plenity main v1.0',
         'gelesis plenity main v1.1',
-        'gelesis plenity main v1.2'
+        'gelesis plenity main v1.2',
+        'ipsen dysport multi-indication (feb 2022)',
+        'janssen dse (carousel not veeva q1 2022)'
       ],
       confPanels: [
         'rad 1',
@@ -188,7 +194,8 @@ export default {
         'testopel 1',
         'emh 1',
         'xpd 2',
-        'xpd 3'
+        'xpd 3',
+        'omeras dse'
       ],
       titles: [
         {
