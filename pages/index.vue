@@ -88,53 +88,59 @@ export default {
       pitches: 1,
       pitchesWon: 0,
       websites: [
-        'belbuca hcp',
-        'belbuca patient',
-        'supprelin la patient',
-        'supprelin la hcp',
-        'spritam hcp',
-        'spritam patient',
-        'radicava hcp',
-        'radicava patient',
-        'xiaflex dc hcp',
-        'xiaflex dc patient',
-        'xiaflex pd hcp',
-        'xiaflex pd patient',
-        'endo mens health',
-        'stendra hcp',
-        'stendra patient',
-        'hqblitz',
-        'xtra kickstarts',
-        'axid hcp',
-        'unithroid hcp',
-        'unithroid patient',
-        'vitrisa corp',
-        'legend bio corp',
-        'aveed patient',
-        'aveed hcp',
-        'radicava webinar unbranded',
-        'radicava webinar branded',
-        'dompe dse',
-        'moors clinical trials',
-        'lialda 10 year',
-        'built for me',
-        'airduo',
-        'armonair',
-        'qvar',
-        'dont take vat',
-        'natesto patient',
-        'natesto hcp',
-        'exservan hcp',
-        'plenitykitchen.com',
-        'api.radicavacarelocator.com',
-        'api.hqblitz.com',
-        'api.natesto.com',
-        'amgencongresses.com (VCP)',
-        'omeras yartelmea ves site',
-        'omeras dse ves site',
-        'astellas zolbe dse site (may 2022)',
-        'takeda cuvitru hcp (q1 2022)',
-        'takeda hyqvia hcp (q1 2022)'
+        'belbuca hcp (Endo > Belbuca)',
+        'belbuca patient (Endo > Belbuca)',
+        'supprelin la patient (Endo > Supprelin LA)',
+        'supprelin la hcp (Endo > Supprelin LA)',
+        'spritam hcp (Aprecia > Spritam)',
+        'spritam patient (Aprecia > Spritam)',
+        'radicavahcp.com (MTPA > Radicava)',
+        'radicava.com (MTPA > Radicava)',
+        'xiaflex dc hcp (End > Xiaflex DC)',
+        'xiaflex dc patient (End > Xiaflex DC)',
+        'xiaflex pd hcp (End > Xiaflex PD)',
+        'xiaflex pd patient (End > Xiaflex PD)',
+        'endomenshealth.com (Endo > Mens Health)',
+        'stendrahcp.com (Metuchen > Stendra)',
+        'stendra.com (Metuchen > Stendra)',
+        'hqblitz (MTPA)',
+        'xtra kickstarts (Endo > Xiaflex DC)',
+        'axid.com (Amneal > Axid)',
+        'unithroidhcp.com (Amneal > Unithroid)',
+        'unithroid.com (Amneal > Unithroid)',
+        'vitrisa corp (Virtrisa)',
+        'legend bio corp (Legend Biopharma)',
+        'aveed patient (Endo > Aveed)',
+        'aveed hcp (Endo > Aveed)',
+        'alswebinars.com (MTPA > ALS Pathways - Radicava DSE)',
+        'radicavawebinar.com (MTPA > Radicava)',
+        'knownk.com (Dompe > Oxervate DSE)',
+        'moors clinical trials (Janssen > Esketimine)',
+        'lialda 10 year (Shire > Lialda)',
+        'built for me (Sunovian)',
+        'airduo hcp (Teva > Airduo)',
+        'armonair hcp (Teva > ArmonAir)',
+        'qvar hcp (Teva > QVAR)',
+        'truximahcp.com (Teva > Truxima)',
+        'tevacore.com (Teva)',
+        'donttakevat.com (Thera)',
+        'natesto.com (Acerus > Natesto)',
+        'natestohcp.com (Acerus > Natesto)',
+        'exservanhcp.com (MTPA > Exservan)',
+        'plenitykitchen.com (virtual booth - Gelesis > Plenity)',
+        'api.radicavacarelocator.com (API - MTPA > Radicava)',
+        'api.hqblitz.com (API - MTPA)',
+        'api.natesto.com (API - Acerus > Natesto)',
+        'amgencongresses.com (VCP - Amgen)',
+        'regenerononcmedicalbooth.com (virtual booth - Sanofi > Regeneron)'
+        // 'omeras yartelmea ves site', ON HOLD
+        // 'omeras dse ves site', ON HOLD
+        // 'astellas zolbe dse site', (may 2022)
+        // 'takeda cuvitru hcp', (q1 2022)
+        // 'takeda hyqvia hcp', (q1 2022)
+        // 'takeda cuvitru patient', (q1 2022)
+        // 'takeda hyqvia patient', (q1 2022)
+        // 'api.dysport.com' (q1 2022)
       ],
       ivas: [
         'mtpa human body en-us',
@@ -175,8 +181,8 @@ export default {
         'gelesis plenity main v1.0',
         'gelesis plenity main v1.1',
         'gelesis plenity main v1.2',
-        'ipsen dysport multi-indication (feb 2022)',
-        'janssen dse (carousel not veeva q1 2022)'
+        // 'ipsen dysport multi-indication', (feb 2022)
+        // 'janssen dse (carousel not veeva)' ON HOLD
       ],
       confPanels: [
         'rad 1',
@@ -226,6 +232,14 @@ export default {
           start: '2019-06-28',
           end: ''
         }
+        // ,
+        // {
+        //   company: 'GSW Advertising',
+        //   location: 'Newtown, PA',
+        //   title: 'VP, Creative Technology',
+        //   start: '',
+        //   end: ''
+        // }
       ],
       developers: [
         'James Tomasino',
@@ -258,7 +272,10 @@ export default {
         'Vinny Di Cairano',
         'Greg Jaspen',
         'Max Currier',
-        'Lan Zhang'
+        'Lan Zhang',
+        'Mickey de Lorenzo',
+        'Scott Ellison',
+        'James C'
       ],
       conferences: [
         {
