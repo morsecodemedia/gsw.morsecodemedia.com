@@ -79,16 +79,16 @@ export default {
     return {
       desks: 15,
       homeDesks: 4,
-      officeSpaces: 7,
-      homeOffices: 4,
-      companies: 2,
-      mergers: 1,
-      acquisitions: 1,
-      managingDirectors: 6,
-      companyPresidents: 4,
-      bosses: 4,
+      officeSpaces: 4, // State Street, Brandywine 1st floor (Dev Separate), Brandywine 1st (Together), Brandywine 2nd Floor
+      homeOffices: 4, // 143 3rd Floor, 143 Basement, 35 1st Floor, 35 2nd Floor
+      companies: 2, // iCS, GSW
+      mergers: 2, // Navicor Philly->GSW Newtow (GSW Philly), GSW Philly->GSW NYC (GSW EAST)
+      acquisitions: 1, // INC/inVentiv->Syneos
+      managingDirectors: 8, // Lynn, Melissa, Sam C, Jon, Nancy, Chris, Sunny, Andrew
+      companyPresidents: 4, // Marcy, Sunny, JD,
+      bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
       children: 2,
-      pitches: 1,
+      pitches: 1, // Dysport Connect
       pitchesWon: 0,
       websites: [
         'belbuca hcp (Endo > Belbuca)',
