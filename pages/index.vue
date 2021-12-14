@@ -6,7 +6,7 @@
       <ul>
         <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}.</li>
         <li>Since then I've held {{ titlesCount }} different titles.</li>
-        <li>Currently I am the {{ titles[titlesCount].title }} for {{ titles[titlesCount].company }}</li>
+        <li>Currently I am the {{ titles[4].title }} for {{ titles[4].company }}</li>
         <li>Been a part of 4 different groups/hubs/offices: inVentiv Creative Studios / GSW Philadelphia / GSW East / GSW Midwest.</li>
         <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces ({{ homeDesks }} of which were home offices).</li>
         <li>Seen {{ mergers }} merger(s) and {{ acquisitions }} acquisition(s).</li>
@@ -90,6 +90,7 @@ export default {
       children: 2,
       pitches: 1, // Dysport Connect
       pitchesWon: 0,
+      titlesLength: 0,
       websites: [
         'belbuca hcp (Endo > Belbuca)',
         'belbuca patient (Endo > Belbuca)',
@@ -238,7 +239,7 @@ export default {
         {
           company: 'GSW Advertising',
           location: 'Remote',
-          title: 'VP, Creative Technology',
+          title: 'VP Technology Director, Creative Technology',
           start: '2021-12-13',
           end: ''
         }
@@ -461,6 +462,9 @@ export default {
     },
     titlesCount () {
       return this.titles.length
+    },
+    titlesLength () {
+      this.titlesLength = this.titles.length
     },
     startTenure () {
       return new Date(this.titles[0].start)
