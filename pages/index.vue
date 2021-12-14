@@ -15,10 +15,11 @@
           Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
         </li>
         <li>Led over {{ developerCount }} developers.</li>
-        <li>Had {{ children }} kids.</li>
+        <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*</li>
         <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
-        <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*</li>
+        <li>Had {{ children }} kids.</li>
+        <li>There have been {{ usaPresidents }} US Presidents.</li>
         <li
           v-if="pandemicCount === 1"
         >
@@ -43,7 +44,6 @@
           </span>
           ).
         </li>
-        <li>There have been {{ usaPresidents }} US Presidents.</li>
       </ul>
       <!-- TODO: Something Cool -->
       <!-- Create AR marker and display on website
@@ -230,16 +230,15 @@ export default {
           location: 'Newtown, PA',
           title: 'Technology Director',
           start: '2019-06-28',
+          end: '2021-12-13'
+        },
+        {
+          company: 'GSW Advertising',
+          location: 'Remote',
+          title: 'VP, Creative Technology',
+          start: '2021-12-13',
           end: ''
         }
-        // ,
-        // {
-        //   company: 'GSW Advertising',
-        //   location: 'Newtown, PA',
-        //   title: 'VP, Creative Technology',
-        //   start: '',
-        //   end: ''
-        // }
       ],
       developers: [
         'James Tomasino',
