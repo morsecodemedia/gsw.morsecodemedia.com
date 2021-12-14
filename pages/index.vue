@@ -4,7 +4,9 @@
       <h1>A stats/memory tracker of my time at inVentiv Health/Syneos Health</h1>
       <p>In the {{ totalTenure }} that I've been at GSW, there have been a lot of moments. Here are some of the highlights.</p>
       <ul>
-        <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}. Since then I've held {{ titlesCount }} different titles.</li>
+        <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}.</li>
+        <li>Since then I've held {{ titlesCount }} different titles.</li>
+        <li>Currently I am the {{ titles[titlesCount].title }} for {{ titles[titlesCount].company }}</li>
         <li>Been a part of 4 different groups/hubs/offices: inVentiv Creative Studios / GSW Philadelphia / GSW East / GSW Midwest.</li>
         <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces ({{ homeDesks }} of which were home offices).</li>
         <li>Seen {{ mergers }} merger(s) and {{ acquisitions }} acquisition(s).</li>
