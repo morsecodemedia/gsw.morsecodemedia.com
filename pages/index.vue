@@ -38,7 +38,7 @@
         <li
           v-else
         >
-          Survived {{ pandemicCount }} pandemics (
+          Lived through {{ pandemicCount }} pandemics (
           <span
             v-for="(pandemic, index) in pandemics"
             :key="index"
