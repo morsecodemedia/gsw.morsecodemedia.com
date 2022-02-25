@@ -18,7 +18,7 @@
           Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
         </li>
         <li>Led over {{ developerCount }} developers.</li>
-        <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*</li>
+        <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*<sup>&dagger;</sup></li>
         <li>Attended {{ conferenceCount }} conferences.</li>
         <li>Achieved {{ certificationCount }} certifications.</li>
         <li>Had {{ children }} kids.</li>
@@ -58,6 +58,11 @@
       >
         *I didn't bother to start tracking everything until my 5th year at GSW, so I'm sure I'm forgetting projects.
       </p>
+      <p
+        class="footnote"
+      >
+        <sup>&dagger;</sup>I'm not including emails, banners, or internal tools that make every day life easier.
+      </p>
 
       <div class="contact-information">
         <h2>Contact Information</h2>
@@ -84,7 +89,7 @@ export default {
       companies: 2, // iCS, GSW
       mergers: 2, // Navicor Philly->GSW Newtow (GSW Philly), GSW Philly->GSW NYC (GSW EAST)
       acquisitions: 1, // INC/inVentiv->Syneos
-      managingDirectors: 8, // Lynn, Melissa, Sam C, Jon, Nancy, Chris, Sunny, Andrew
+      managingDirectors: 9, // Lynn Dinsmore, Melissa Marrow, Sam C, Jon Nelson, Nancy Finer, Chris Mizek, Sonja Foster-Storch, Andrew Schirmer, Jen Oleski
       companyPresidents: 4, // Marcy, Sunny, JD,
       bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
       children: 2,
@@ -139,12 +144,17 @@ export default {
         'regenerononcmedicalbooth.com (virtual booth - Sanofi > Regeneron)'
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
-        // 'astellas zolbe dse site', (may 2022)
+        // 'astellas zolbe dse site', (apr-may 2022)
         // 'takeda cuvitru hcp', (q1 2022)
         // 'takeda hyqvia hcp', (q1 2022)
         // 'takeda cuvitru patient', (q1 2022)
         // 'takeda hyqvia patient', (q1 2022)
-        // 'api.dysport.com' (q1 2022)
+        // 'api.dysport.com (API - Ipsen Dysport Specialist Locator)', (q2 2022)
+        // 'dysport.com (Ipsen > Dysport)',
+        // 'dysporthcp.com (Ipsen > Dysport)'
+        // 'omeros.com (Omeros)',
+        // 'yartelmea.com (Omeros > Yartelmea)',
+        // 'cuseeme.com.com (Alexion > Wilson Disease DSE)' (q2 2022)
       ],
       ivas: [
         'mtpa human body en-us',
@@ -185,8 +195,10 @@ export default {
         'gelesis plenity main v1.0',
         'gelesis plenity main v1.1',
         'gelesis plenity main v1.2',
-        // 'ipsen dysport multi-indication', (feb 2022)
-        // 'janssen dse (carousel not veeva)' ON HOLD
+        'ipsen dysport multi-indication',
+        // 'janssen dse (carousel not veeva)', ON HOLD
+        // 'takeda hyqvia main',
+        // 'takeda cuvitru main',
       ],
       confPanels: [
         'rad 1',
@@ -205,7 +217,9 @@ export default {
         'emh 1',
         'xpd 2',
         'xpd 3',
-        'omeras dse'
+        'omeros dse interactive brochure',
+        // 'omeros eisthreat.com panel',
+        // 'omeros moa video panel'
       ],
       titles: [
         {
@@ -278,7 +292,10 @@ export default {
         'Lan Zhang',
         'Mickey de Lorenzo',
         'Scott Ellison',
-        'James C'
+        'James C',
+        'Jason Sankey',
+        'Brandon Diaz',
+        'Jerrold Smith'
       ],
       conferences: [
         {
@@ -348,6 +365,10 @@ export default {
         {
           name: 'Vue Nation',
           year: '2021'
+        },
+        {
+          name: 'Nuxt Nation',
+          year: '2022'
         }
 
       ],
