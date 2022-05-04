@@ -105,10 +105,10 @@ export default {
         'spritam patient (Aprecia > Spritam)',
         'radicavahcp.com (MTPA > Radicava)',
         'radicava.com (MTPA > Radicava)',
-        'xiaflex dc hcp (End > Xiaflex DC)',
-        'xiaflex dc patient (End > Xiaflex DC)',
-        'xiaflex pd hcp (End > Xiaflex PD)',
-        'xiaflex pd patient (End > Xiaflex PD)',
+        'xiaflex dc hcp (Endo > Xiaflex DC)',
+        'xiaflex dc patient (Endo > Xiaflex DC)',
+        'xiaflex pd hcp (Endo > Xiaflex PD)',
+        'xiaflex pd patient (Endo > Xiaflex PD)',
         'endomenshealth.com (Endo > Mens Health)',
         'stendrahcp.com (Metuchen > Stendra)',
         'stendra.com (Metuchen > Stendra)',
@@ -140,21 +140,20 @@ export default {
         'api.radicavacarelocator.com (API - MTPA > Radicava)',
         'api.hqblitz.com (API - MTPA)',
         'api.natesto.com (API - Acerus > Natesto)',
-        'amgencongresses.com (VCP - Amgen)',
-        'regenerononcmedicalbooth.com (virtual booth - Sanofi > Regeneron)'
+        'amgencongresses.com (VCP - Amgen)'
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
-        // 'astellas zolbe dse site', (apr-may 2022)
-        // 'takeda cuvitru hcp', (q1 2022)
-        // 'takeda hyqvia hcp', (q1 2022)
-        // 'takeda cuvitru patient', (q1 2022)
-        // 'takeda hyqvia patient', (q1 2022)
+        // 'gastriccancerbiomarkers.com (Astellas > Zolbe)', (apr-may 2022)
+        // 'cuvitruhcp.com (Takeda > Cuvitru)', (q4 2022)
+        // 'hyqviahcp.com (Takeda > HyQvia)', (q4 2022)
+        // 'cuvitru.com (Takeda > Cuvitru)', (q4 2022)
+        // 'hyqvia.com (Takeda > HyQvia)', (q4 2022)
         // 'api.dysport.com (API - Ipsen Dysport Specialist Locator)', (q2 2022)
         // 'dysport.com (Ipsen > Dysport)',
         // 'dysporthcp.com (Ipsen > Dysport)'
-        // 'omeros.com (Omeros)',
+        // 'omeros.com (Omeros Corporate)',
         // 'yartelmea.com (Omeros > Yartelmea)',
-        // 'cuseeme.com.com (Alexion > Wilson Disease DSE)' (q2 2022)
+        // 'cuseeme.com (Alexion > Wilson Disease DSE)' (q3 2022)
       ],
       ivas: [
         'mtpa human body en-us',
@@ -195,7 +194,9 @@ export default {
         'gelesis plenity main v1.0',
         'gelesis plenity main v1.1',
         'gelesis plenity main v1.2',
-        'ipsen dysport multi-indication',
+        'ipsen dysport multi-indication v1.0',
+        'ipsen dysport multi-indication v1.1',
+        // 'ipsen dysport multi-indication v2.0 - framework overhaul', (q3-q4 2022)
         // 'janssen dse (carousel not veeva)', ON HOLD
         // 'takeda hyqvia main',
         // 'takeda cuvitru main',
@@ -218,6 +219,9 @@ export default {
         'xpd 2',
         'xpd 3',
         'omeros dse interactive brochure',
+        'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Sanofi > Regeneron)',
+        'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Sanofi > Regeneron)',
+        'TBD.com (ASCO 2022 Oncology Pipeline - Sanofi > Regeneron)',
         // 'omeros eisthreat.com panel',
         // 'omeros moa video panel'
       ],
@@ -245,14 +249,14 @@ export default {
         },
         {
           company: 'GSW Advertising',
-          location: 'Newtown, PA',
+          location: 'Newtown, PA/New York, NY',
           title: 'Technology Director',
           start: '2019-06-28',
           end: '2021-12-13'
         },
         {
           company: 'GSW Advertising',
-          location: 'Remote',
+          location: 'Remote/GSW Columbus',
           title: 'VP Technology Director, Creative Technology',
           start: '2021-12-13',
           end: ''
@@ -295,7 +299,8 @@ export default {
         'James C',
         'Jason Sankey',
         'Brandon Diaz',
-        'Jerrold Smith'
+        'Jerrold Smith',
+        'Chris Miller'
       ],
       conferences: [
         {
@@ -373,6 +378,13 @@ export default {
 
       ],
       certifications: [
+        {
+          certification: 'Approved Email Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'April 2022',
+          certificationEnd: 'April 2023'
+        },
         {
           certification: 'Certified Professional in Accessibility Core Competencies (CPACC)',
           organization: 'IAAP',
