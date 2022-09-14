@@ -7,7 +7,7 @@
         <li>Started on {{ titles[0].start }}, as a {{ titles[0].title }} for {{ titles[0].company }}.</li>
         <li>Since then I've held {{ titlesCount }} different titles.</li>
         <li>Currently I am the {{ titles[4].title }} for {{ titles[4].company }}</li>
-        <li>Been a part of 4 different groups/hubs/offices: inVentiv Creative Studios / GSW Philadelphia / GSW East / GSW Midwest.</li>
+        <li>Been a part of 4 different groups/hubs/offices: inVentiv Creative Studios / GSW Philadelphia / GSW New York / GSW Columbus.</li>
         <li>Sat at {{ desks }} desks in {{ officeSpaces }} different office spaces ({{ homeDesks }} of which were home offices).</li>
         <li>Seen {{ mergers }} merger(s) and {{ acquisitions }} acquisition(s).</li>
         <li>Worked under {{ bosses }} different bosses.</li>
@@ -93,8 +93,8 @@ export default {
       companyPresidents: 4, // Marcy, Sunny, JD,
       bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
       children: 2,
-      pitches: 1, // Dysport Connect
-      pitchesWon: 0,
+      pitches: 2, // Dysport Connect, AZ Accessibikity,
+      pitchesWon: 1,
       titlesLength: 0,
       websites: [
         'belbuca hcp (Endo > Belbuca)',
@@ -124,6 +124,7 @@ export default {
         'alswebinars.com (MTPA > ALS Pathways - Radicava DSE)',
         'radicavawebinar.com (MTPA > Radicava)',
         'knownk.com (Dompe > Oxervate DSE)',
+        'oxervate.com/hcp (Dompe > Oxervate)'
         'moors clinical trials (Janssen > Esketimine)',
         'lialda 10 year (Shire > Lialda)',
         'built for me (Sunovian)',
@@ -140,20 +141,34 @@ export default {
         'api.radicavacarelocator.com (API - MTPA > Radicava)',
         'api.hqblitz.com (API - MTPA)',
         'api.natesto.com (API - Acerus > Natesto)',
-        'amgencongresses.com (VCP - Amgen)'
+        'amgencongresses.com (Amgen > Virtual Congresses Platform)',
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
-        // 'gastriccancerbiomarkers.com (Astellas > Zolbe)', (apr-may 2022)
+        'gastriccancerbiomarkers.com (Astellas > Zolbe)',
+        // 'zolbe hcp (Astellas > Zolbe)'
         // 'cuvitruhcp.com (Takeda > Cuvitru)', (q4 2022)
         // 'hyqviahcp.com (Takeda > HyQvia)', (q4 2022)
         // 'cuvitru.com (Takeda > Cuvitru)', (q4 2022)
         // 'hyqvia.com (Takeda > HyQvia)', (q4 2022)
-        // 'api.dysport.com (API - Ipsen Dysport Specialist Locator)', (q2 2022)
+        'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
         // 'dysport.com (Ipsen > Dysport)',
         // 'dysporthcp.com (Ipsen > Dysport)'
-        // 'omeros.com (Omeros Corporate)',
+        'omeros.com (Omeros Corporate)',
+        'eisthreat.com (Omeros)',
         // 'yartelmea.com (Omeros > Yartelmea)',
-        // 'cuseeme.com (Alexion > Wilson Disease DSE)' (q3 2022)
+        // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)' (q2 2023)
+        // 'SeroquelXR.com (AZ > Seroquel)'
+        'amgensupportplus.com (Amgen > AmgenSupportPlus)',
+        // 'amgenassist.com (Amgen > AmgenAssist)'
+        // 'oxervate.com (Dompe > Oxervate)'
+        // 'amjevita.com (Amgen > Amjevita)'
+        'lillyloxooncologypipeline.com (Lilly > Loxo)',
+        'saluda.com (Saluda Medical > Evoke)',
+        'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Regeneron)',
+        'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Regeneron)',
+        'regennerononcmedicabooth.com (ASCO 2022 Oncology Pipeline - Regeneron)',
+        'oncology.regennerononcmedicabooth.com (ESMO 2022 Oncology Pipeline - Regeneron)',
+        'hematology.regennerononcmedicabooth.com (ESMO 2022 Hematology Pipeline - Regeneron)'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -194,12 +209,16 @@ export default {
         'gelesis plenity main v1.0',
         'gelesis plenity main v1.1',
         'gelesis plenity main v1.2',
+        'gelesis plenity talking paper v1.0',
+        'gelesis plenity talking paper v1.1',
+        'gelesis plenity talking paper v1.2',
         'ipsen dysport multi-indication v1.0',
         'ipsen dysport multi-indication v1.1',
         // 'ipsen dysport multi-indication v2.0 - framework overhaul', (q3-q4 2022)
         // 'janssen dse (carousel not veeva)', ON HOLD
         // 'takeda hyqvia main',
         // 'takeda cuvitru main',
+        // 'takeda cuvitru needlestick calculator'
       ],
       confPanels: [
         'rad 1',
@@ -219,11 +238,13 @@ export default {
         'xpd 2',
         'xpd 3',
         'omeros dse interactive brochure',
-        'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Sanofi > Regeneron)',
-        'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Sanofi > Regeneron)',
-        'TBD.com (ASCO 2022 Oncology Pipeline - Sanofi > Regeneron)',
-        // 'omeros eisthreat.com panel',
-        // 'omeros moa video panel'
+        'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Regeneron)',
+        'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Regeneron)',
+        'regennerononcmedicabooth.com (ASCO 2022 Oncology Pipeline - Regeneron)',
+        'oncology.regennerononcmedicabooth.com (ESMO 2022 Oncology Pipeline - Regeneron)',
+        'hematology.regennerononcmedicabooth.com (ESMO 2022 Hematology Pipeline - Regeneron)',
+        'omeros eisthreat.com panel',
+        'omeros moa video panel'
       ],
       titles: [
         {
