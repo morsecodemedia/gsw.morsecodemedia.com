@@ -12,11 +12,6 @@
         <li>Seen {{ mergers }} merger(s) and {{ acquisitions }} acquisition(s).</li>
         <li>Worked under {{ bosses }} different bosses.</li>
         <li>Had {{ managingDirectors }} managing directors.</li>
-        <li
-          v-if="pitchWinPercentage > 0"
-        >
-          Was a part of {{ pitches }} pitch(es) with a win percentage of {{ pitchWinPercentage }}%
-        </li>
         <li>Led over {{ developerCount }} developers.</li>
         <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*<sup>&dagger;</sup></li>
         <li>Attended {{ conferenceCount }} conferences.<sup>&Dagger;</sup></li>
