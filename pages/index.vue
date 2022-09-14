@@ -129,7 +129,7 @@ export default {
         'alswebinars.com (MTPA > ALS Pathways - Radicava DSE)',
         'radicavawebinar.com (MTPA > Radicava)',
         'knownk.com (Dompe > Oxervate DSE)',
-        'oxervate.com/hcp (Dompe > Oxervate)'
+        'oxervate.com/hcp (Dompe > Oxervate)',
         'moors clinical trials (Janssen > Esketimine)',
         'lialda 10 year (Shire > Lialda)',
         'built for me (Sunovian)',
@@ -218,7 +218,7 @@ export default {
         'gelesis plenity talking paper v1.1',
         'gelesis plenity talking paper v1.2',
         'ipsen dysport multi-indication v1.0',
-        'ipsen dysport multi-indication v1.1',
+        'ipsen dysport multi-indication v1.1'
         // 'ipsen dysport multi-indication v2.0 - framework overhaul', (q3-q4 2022)
         // 'janssen dse (carousel not veeva)', ON HOLD
         // 'takeda hyqvia main',
