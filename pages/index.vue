@@ -19,14 +19,14 @@
         </li>
         <li>Led over {{ developerCount }} developers.</li>
         <li>Launched and maintained over <strong>{{ websitesCount }}</strong> websites, <strong>{{ ivaCount }}</strong> iVAs (Veeva CLM Presentations) and <strong>{{ confPanelCount }}</strong> interactive conference panels.*<sup>&dagger;</sup></li>
-        <li>Attended {{ conferenceCount }} conferences.</li>
+        <li>Attended {{ conferenceCount }} conferences.<sup>&Dagger;</sup></li>
         <li>Achieved {{ certificationCount }} certifications.</li>
         <li>Had {{ children }} kids.</li>
         <li>There have been {{ usaPresidents }} US Presidents.</li>
         <li
           v-if="pandemicCount === 1"
         >
-          Survived {{ pandemicCount }} pandemic (
+          There was {{ pandemicCount }} pandemic (
           <span
             v-for="(pandemic, index) in pandemics"
             :key="index"
@@ -38,7 +38,7 @@
         <li
           v-else
         >
-          Lived through {{ pandemicCount }} pandemics (
+          There were {{ pandemicCount }} pandemics (
           <span
             v-for="(pandemic, index) in pandemics"
             :key="index"
@@ -62,6 +62,11 @@
         class="footnote"
       >
         <sup>&dagger;</sup>I'm not including emails, banners, or internal tools that make every day life easier.
+      </p>
+      <p
+        class="footnote"
+      >
+        <sup>&Dagger;</sup>I attend virtual congresses pretty regularly, I'm sure this number isn't accounting for every one.
       </p>
 
       <div class="contact-information">
@@ -93,7 +98,7 @@ export default {
       companyPresidents: 4, // Marcy, Sunny, JD,
       bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
       children: 2,
-      pitches: 2, // Dysport Connect, AZ Accessibikity,
+      pitches: 2, // Dysport Connect, AZ Accessibility,
       pitchesWon: 1,
       titlesLength: 0,
       websites: [
