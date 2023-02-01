@@ -146,10 +146,11 @@ export default {
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com (Astellas > Zolbe)',
         // 'zolbe hcp (Astellas > Zolbe)'
-        // 'cuvitruhcp.com (Takeda > Cuvitru)', (q4 2022)
-        // 'hyqviahcp.com (Takeda > HyQvia)', (q4 2022)
-        // 'cuvitru.com (Takeda > Cuvitru)', (q4 2022)
-        // 'hyqvia.com (Takeda > HyQvia)', (q4 2022)
+        // 'cuvitruhcp.com (Takeda > Cuvitru)', (q1 2023)
+        // 'hyqviahcp.com (Takeda > HyQvia)', (q1 2023)
+        // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
+        // 'hyqvia.com (Takeda > HyQvia)', (q2 2023)
+        // 'IHS Site (Takeda > PDT)', (q4 2023)
         'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
         // 'dysport.com (Ipsen > Dysport)',
         // 'dysporthcp.com (Ipsen > Dysport)'
@@ -157,18 +158,23 @@ export default {
         'eisthreat.com (Omeros)',
         // 'yartelmea.com (Omeros > Yartelmea)',
         // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)' (q2 2023)
-        // 'SeroquelXR.com (AZ > Seroquel)'
+        'SeroquelXR.com (AZ > Seroquel)'
         'amgensupportplus.com (Amgen > AmgenSupportPlus)',
         // 'amgenassist.com (Amgen > AmgenAssist)'
         // 'oxervate.com (Dompe > Oxervate)'
-        // 'amjevita.com (Amgen > Amjevita)'
+        'amjevita.com (Amgen > Amjevita)',
+        'amjevitapro.com (Amgen > Amjevita)',
         'lillyloxooncologypipeline.com (Lilly > Loxo)',
         'saluda.com (Saluda Medical > Evoke)',
         'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Regeneron)',
         'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Regeneron)',
         'regennerononcmedicabooth.com (ASCO 2022 Oncology Pipeline - Regeneron)',
         'oncology.regennerononcmedicabooth.com (ESMO 2022 Oncology Pipeline - Regeneron)',
-        'hematology.regennerononcmedicabooth.com (ESMO 2022 Hematology Pipeline - Regeneron)'
+        'hematology.regennerononcmedicabooth.com (ESMO 2022 Hematology Pipeline - Regeneron)',
+        'oncology.regennerononcmedicabooth.com (ASH 2022 Oncology Pipeline - Regeneron)',
+        'hematology.regennerononcmedicabooth.com (ASH 2022 Hematology Pipeline - Regeneron)',
+        'vonjo.com (CTI > Vonjo)',
+        'vonjo.com/hcp (CTI > Vonjo)'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -214,11 +220,11 @@ export default {
         'gelesis plenity talking paper v1.2',
         'ipsen dysport multi-indication v1.0',
         'ipsen dysport multi-indication v1.1'
-        // 'ipsen dysport multi-indication v2.0 - framework overhaul', (q3-q4 2022)
+        'ipsen dysport multi-indication v2.0 - framework overhaul',
         // 'janssen dse (carousel not veeva)', ON HOLD
-        // 'takeda hyqvia main',
-        // 'takeda cuvitru main',
-        // 'takeda cuvitru needlestick calculator'
+        'takeda hyqvia main',
+        'takeda cuvitru main',
+        'takeda cuvitru needlestick calculator'
       ],
       confPanels: [
         'rad 1',
@@ -243,6 +249,8 @@ export default {
         'regennerononcmedicabooth.com (ASCO 2022 Oncology Pipeline - Regeneron)',
         'oncology.regennerononcmedicabooth.com (ESMO 2022 Oncology Pipeline - Regeneron)',
         'hematology.regennerononcmedicabooth.com (ESMO 2022 Hematology Pipeline - Regeneron)',
+        'oncology.regennerononcmedicabooth.com (ASH 2022 Oncology Pipeline - Regeneron)',
+        'hematology.regennerononcmedicabooth.com (ASH 2022 Hematology Pipeline - Regeneron)',
         'omeros eisthreat.com panel',
         'omeros moa video panel'
       ],
@@ -321,7 +329,8 @@ export default {
         'Jason Sankey',
         'Brandon Diaz',
         'Jerrold Smith',
-        'Chris Miller'
+        'Chris Miller',
+        'Andrea'
       ],
       conferences: [
         {
@@ -399,6 +408,20 @@ export default {
 
       ],
       certifications: [
+        {
+          certification: 'CLM Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'CLM Business Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
         {
           certification: 'Approved Email Technical Certification',
           organization: 'Veeva Systems',
