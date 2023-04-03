@@ -142,23 +142,34 @@ export default {
         'api.hqblitz.com (API - MTPA)',
         'api.natesto.com (API - Acerus > Natesto)',
         'amgencongresses.com (Amgen > Virtual Congresses Platform)',
+        'amjevita.com (Amgen > Amjevita)',
+        'amjevitapro.com (Amgen > Amjevita)',
+        'amgensupportplus.com (Amgen)',
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
-        'gastriccancerbiomarkers.com (Astellas > Zolbe)',
-        // 'zolbe hcp (Astellas > Zolbe)'
-        // 'cuvitruhcp.com (Takeda > Cuvitru)', (q1 2023)
-        // 'hyqviahcp.com (Takeda > HyQvia)', (q1 2023)
+        'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
+        'gastriccancerbiomarkers.com GLOBAL (Astellas > Zolbe)',
+        // 'zolbe hcp US (Astellas > Zolbe)',
+        // 'zolbe hcp GLOBAL (Astellas > Zolbe)'
+        'cuvitruhcp.com (Takeda > Cuvitru)',
+        'hyqviahcp.com (Takeda > HyQvia)',
         // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
         // 'hyqvia.com (Takeda > HyQvia)', (q2 2023)
         // 'IHS Site (Takeda > PDT)', (q4 2023)
+        // 'glassialiquid.com' (Takeda > Glassia),
+        // 'glassialiquid.com/hcp (Takeda > Glassia)',
+        // 'gammagard.com/hcp (Takeda > Gammagard)',
+        // 'gammagard.com (Takeda > Gammagard)'
         'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
-        // 'dysport.com (Ipsen > Dysport)',
-        // 'dysporthcp.com (Ipsen > Dysport)'
+        'dysport.com (Ipsen > Dysport)',
+        'dysporthcp.com (Ipsen > Dysport)'
         'omeros.com (Omeros Corporate)',
         'eisthreat.com (Omeros)',
         // 'yartelmea.com (Omeros > Yartelmea)',
-        // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)' (q2 2023)
-        'SeroquelXR.com (AZ > Seroquel)'
+        // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)', (q2 2023)
+        'SeroquelXR.com (AZ > Seroquel)',
+        // 'Forxiga - The Meryl Experience (AZ > Forxiga)',
+        // 'Andexxa (AZ > Andexxa)',
         'amgensupportplus.com (Amgen > AmgenSupportPlus)',
         // 'amgenassist.com (Amgen > AmgenAssist)'
         // 'oxervate.com (Dompe > Oxervate)'
@@ -174,7 +185,11 @@ export default {
         'oncology.regennerononcmedicabooth.com (ASH 2022 Oncology Pipeline - Regeneron)',
         'hematology.regennerononcmedicabooth.com (ASH 2022 Hematology Pipeline - Regeneron)',
         'vonjo.com (CTI > Vonjo)',
-        'vonjo.com/hcp (CTI > Vonjo)'
+        'vonjo.com/hcp (CTI > Vonjo)',
+        'Roche Alz OWP',
+        'Roche Cobas Pure Marketo',
+        'Roche MD5800 OWP',
+        'Roche MD5800 Marketo'
       ],
       ivas: [
         'mtpa human body en-us',
@@ -252,7 +267,8 @@ export default {
         'oncology.regennerononcmedicabooth.com (ASH 2022 Oncology Pipeline - Regeneron)',
         'hematology.regennerononcmedicabooth.com (ASH 2022 Hematology Pipeline - Regeneron)',
         'omeros eisthreat.com panel',
-        'omeros moa video panel'
+        'omeros moa video panel',
+        'CTI Bone on Fire Dreamoc'
       ],
       titles: [
         {
@@ -330,7 +346,8 @@ export default {
         'Brandon Diaz',
         'Jerrold Smith',
         'Chris Miller',
-        'Andrea'
+        'Andrea',
+        'Jason Feldheim'
       ],
       conferences: [
         {
