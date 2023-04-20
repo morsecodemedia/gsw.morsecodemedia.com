@@ -87,13 +87,13 @@ export default {
       officeSpaces: 4, // State Street, Brandywine 1st floor (Dev Separate), Brandywine 1st (Together), Brandywine 2nd Floor
       homeOffices: 4, // 143 3rd Floor, 143 Basement, 35 1st Floor, 35 2nd Floor
       companies: 2, // iCS, GSW
-      mergers: 2, // Navicor Philly->GSW Newtow (GSW Philly), GSW Philly->GSW NYC (GSW EAST)
+      mergers: 3, // Navicor Philly->GSW Newtow (GSW Philly), GSW Philly->GSW NYC (GSW EAST), Spherico CBUS->GSW CBUS
       acquisitions: 1, // INC/inVentiv->Syneos
       managingDirectors: 9, // Lynn Dinsmore, Melissa Marrow, Sam C, Jon Nelson, Nancy Finer, Chris Mizek, Sonja Foster-Storch, Andrew Schirmer, Jen Oleski
       companyPresidents: 4, // Marcy, Sunny, JD,
       bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
       children: 2,
-      pitches: 2, // Dysport Connect, AZ Accessibility,
+      pitches: 3, // Dysport Connect, AZ Accessibility, Genicos > Odyssey TX,
       pitchesWon: 1,
       titlesLength: 0,
       websites: [
@@ -155,7 +155,7 @@ export default {
         'hyqviahcp.com (Takeda > HyQvia)',
         // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
         // 'hyqvia.com (Takeda > HyQvia)', (q2 2023)
-        // 'IHS Site (Takeda > PDT)', (q4 2023)
+        // 'IDN Site (Takeda > PDT)', (q4 2023)
         // 'glassialiquid.com' (Takeda > Glassia),
         // 'glassialiquid.com/hcp (Takeda > Glassia)',
         // 'gammagard.com/hcp (Takeda > Gammagard)',
@@ -168,10 +168,10 @@ export default {
         // 'yartelmea.com (Omeros > Yartelmea)',
         // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)', (q2 2023)
         'SeroquelXR.com (AZ > Seroquel)',
-        // 'Forxiga - The Meryl Experience (AZ > Forxiga)',
+        'Forxiga - The Meryl Experience (AZ > Forxiga)',
         // 'Andexxa (AZ > Andexxa)',
         'amgensupportplus.com (Amgen > AmgenSupportPlus)',
-        // 'amgenassist.com (Amgen > AmgenAssist)'
+        'amgenassist.com (Amgen > AmgenAssist)'
         // 'oxervate.com (Dompe > Oxervate)'
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
@@ -268,7 +268,8 @@ export default {
         'hematology.regennerononcmedicabooth.com (ASH 2022 Hematology Pipeline - Regeneron)',
         'omeros eisthreat.com panel',
         'omeros moa video panel',
-        'CTI Bone on Fire Dreamoc'
+        'CTI Bone on Fire Dreamoc',
+        // 'The Art of Healing > Lilly Paint By Numbers'
       ],
       titles: [
         {
