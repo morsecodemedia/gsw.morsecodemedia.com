@@ -245,7 +245,7 @@ export default {
         'gelesis plenity talking paper v1.1',
         'gelesis plenity talking paper v1.2',
         'ipsen dysport multi-indication v1.0',
-        'ipsen dysport multi-indication v1.1'
+        'ipsen dysport multi-indication v1.1',
         'ipsen dysport multi-indication v2.0 - framework overhaul',
         // 'janssen dse (carousel not veeva)', ON HOLD
         'takeda hyqvia main',
