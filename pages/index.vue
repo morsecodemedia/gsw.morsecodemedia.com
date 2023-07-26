@@ -194,7 +194,7 @@ export default {
         'Roche MD5800 Marketo',
         'askLia.ca (Amgen Canada > Prolia)',
         'evenity.ca (Amgen Canada > Evenity)',
-        'evenity.ca/hcp (Amgen Canada > Evenity),
+        'evenity.ca/hcp (Amgen Canada > Evenity)',
         'boneattackinosteoporosis.ca (Amgen Canada > ?)',  
         // 'Quest Diagnostics PCP Landing Page (QD > PCP)',
         // 'Quest Diagnostics AD Detect Landing Page (QD > Ad-Detect)',
