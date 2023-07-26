@@ -150,7 +150,7 @@ export default {
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
         'gastriccancerbiomarkers.com GLOBAL (Astellas > Zolbe)',
         // 'zolbe hcp US (Astellas > Vyloy/Zolbe)',
-        // 'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)'
+        // 'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)',
         'cuvitruhcp.com (Takeda > Cuvitru)',
         'hyqviahcp.com (Takeda > HyQvia)',
         // hyqviacidp.com (Takeda > HyQvia > CIDP)', (q3 2023)
@@ -164,7 +164,7 @@ export default {
         // 'gammagard.com (Takeda > Gammagard)'
         'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
         'dysport.com (Ipsen > Dysport)',
-        'dysporthcp.com (Ipsen > Dysport)'
+        'dysporthcp.com (Ipsen > Dysport)',
         'omeros.com (Omeros Corporate)',
         'eisthreat.com (Omeros)',
         // 'yartelmea.com (Omeros > Yartelmea)',
@@ -173,7 +173,7 @@ export default {
         'Forxiga - The Meryl Experience (AZ > Forxiga)',
         // 'Andexxa (AZ > Andexxa)',
         'amgensupportplus.com (Amgen > AmgenSupportPlus)',
-        'amgenassist.com (Amgen > AmgenAssist)'
+        'amgenassist.com (Amgen > AmgenAssist)',
         'oxervate.com (Dompe > Oxervate)',
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
