@@ -88,7 +88,7 @@ export default {
       homeOffices: 4, // 143 3rd Floor, 143 Basement, 35 1st Floor, 35 2nd Floor
       companies: 2, // iCS, GSW
       mergers: 3, // Navicor Philly->GSW Newtow (GSW Philly), GSW Philly->GSW NYC (GSW EAST), Spherico CBUS->GSW CBUS
-      acquisitions: 1, // INC/inVentiv->Syneos
+      acquisitions: 2, // INC/inVentiv->Syneos, VC takes over Syneos goes Private
       managingDirectors: 9, // Lynn Dinsmore, Melissa Marrow, Sam C, Jon Nelson, Nancy Finer, Chris Mizek, Sonja Foster-Storch, Andrew Schirmer, Jen Oleski
       companyPresidents: 4, // Marcy, Sunny, JD,
       bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
@@ -149,10 +149,12 @@ export default {
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
         'gastriccancerbiomarkers.com GLOBAL (Astellas > Zolbe)',
-        // 'zolbe hcp US (Astellas > Zolbe)',
-        // 'zolbe hcp GLOBAL (Astellas > Zolbe)'
+        // 'zolbe hcp US (Astellas > Vyloy/Zolbe)',
+        // 'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)'
         'cuvitruhcp.com (Takeda > Cuvitru)',
         'hyqviahcp.com (Takeda > HyQvia)',
+        // hyqviacidp.com (Takeda > HyQvia > CIDP)', (q3 2023)
+        // hyqviacidp.com/hcp (Takeda > HyQvia > CIDP)', (q3 2023)
         // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
         // 'hyqvia.com (Takeda > HyQvia)', (q2 2023)
         // 'IDN Site (Takeda > PDT)', (q4 2023)
@@ -166,13 +168,13 @@ export default {
         'omeros.com (Omeros Corporate)',
         'eisthreat.com (Omeros)',
         // 'yartelmea.com (Omeros > Yartelmea)',
-        // 'cuseemewisondisease.com (Alexion > Wilson Disease DSE)', (q2 2023)
+        'cuseemewisondisease.com (Alexion > Wilson Disease DSE)',
         'SeroquelXR.com (AZ > Seroquel)',
         'Forxiga - The Meryl Experience (AZ > Forxiga)',
         // 'Andexxa (AZ > Andexxa)',
         'amgensupportplus.com (Amgen > AmgenSupportPlus)',
         'amgenassist.com (Amgen > AmgenAssist)'
-        // 'oxervate.com (Dompe > Oxervate)'
+        'oxervate.com (Dompe > Oxervate)',
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
         'lillyloxooncologypipeline.com (Lilly > Loxo)',
@@ -189,7 +191,16 @@ export default {
         'Roche Alz OWP',
         'Roche Cobas Pure Marketo',
         'Roche MD5800 OWP',
-        'Roche MD5800 Marketo'
+        'Roche MD5800 Marketo',
+        'askLia.ca (Amgen Canada > Prolia)',
+        'evenity.ca (Amgen Canada > Evenity)',
+        'evenity.ca/hcp (Amgen Canada > Evenity),
+        'boneattackinosteoporosis.ca (Amgen Canada > ?)',  
+        // 'Quest Diagnostics PCP Landing Page (QD > PCP)',
+        // 'Quest Diagnostics AD Detect Landing Page (QD > Ad-Detect)',
+        // 'Aranesp Neph Hub (Amgen > Aranesp)',
+        // 'Spherico Agency Site (Syneos > Spherico)',
+        // 'GSW Agency Site (Syneos > GSW)',
       ],
       ivas: [
         'mtpa human body en-us',
@@ -239,7 +250,9 @@ export default {
         // 'janssen dse (carousel not veeva)', ON HOLD
         'takeda hyqvia main',
         'takeda cuvitru main',
-        'takeda cuvitru needlestick calculator'
+        'takeda cuvitru needlestick calculator',
+        'You Can Do That In Veeva? Presentation',
+        'CTI Bone On Fire Veeva'
       ],
       confPanels: [
         'rad 1',
@@ -269,7 +282,7 @@ export default {
         'omeros eisthreat.com panel',
         'omeros moa video panel',
         'CTI Bone on Fire Dreamoc',
-        // 'The Art of Healing > Lilly Paint By Numbers'
+        'The Art of Healing > Lilly Paint By Numbers'
       ],
       titles: [
         {
@@ -426,6 +439,48 @@ export default {
 
       ],
       certifications: [
+        {
+          certification: 'Engage for Portals Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'Engage for Portals Business Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'Engage Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'Engage Business Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'Approved Email Business Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'January 2023',
+          certificationEnd: 'January 2024'
+        },
+        {
+          certification: 'Approved Email Technical Certification',
+          organization: 'Veeva Systems',
+          organizationLogo: '',
+          certificationStart: 'April 2022',
+          certificationEnd: 'April 2023'
+        },
         {
           certification: 'CLM Technical Certification',
           organization: 'Veeva Systems',
