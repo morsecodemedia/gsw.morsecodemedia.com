@@ -156,7 +156,7 @@ export default {
         // hyqviacidp.com (Takeda > HyQvia > CIDP)', (q3 2023)
         // hyqviacidp.com/hcp (Takeda > HyQvia > CIDP)', (q3 2023)
         // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
-        // 'hyqvia.com (Takeda > HyQvia)', (q2 2023)
+        'hyqvia.com (Takeda > HyQvia)',
         // 'IDN Site (Takeda > PDT)', (q4 2023)
         // 'glassialiquid.com' (Takeda > Glassia),
         // 'glassialiquid.com/hcp (Takeda > Glassia)',
@@ -196,11 +196,12 @@ export default {
         'evenity.ca (Amgen Canada > Evenity)',
         'evenity.ca/hcp (Amgen Canada > Evenity)',
         'boneattackinosteoporosis.ca (Amgen Canada > ?)',  
-        // 'Quest Diagnostics PCP Landing Page (QD > PCP)',
-        // 'Quest Diagnostics AD Detect Landing Page (QD > Ad-Detect)',
+        // 'Quest Diagnostics PCP AEM Landing Page (QD > PCP)',
+        // 'Quest Diagnostics AD Detect AEM Landing Page (QD > Ad-Detect)',
         // 'Aranesp Neph Hub (Amgen > Aranesp)',
         // 'Spherico Agency Site (Syneos > Spherico)',
         // 'GSW Agency Site (Syneos > GSW)',
+        // 'Gilead Cloud Page (Gilead > ?)',
       ],
       ivas: [
         'mtpa human body en-us',
