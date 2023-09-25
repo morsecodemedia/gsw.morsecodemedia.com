@@ -112,7 +112,8 @@ export default {
         'endomenshealth.com (Endo > Mens Health)',
         'stendrahcp.com (Metuchen > Stendra)',
         'stendra.com (Metuchen > Stendra)',
-        'hqblitz (MTPA)',
+        'hqblitz.com (MTPA)',
+        'api.hqblitz.com (MTPA)',
         'xtra kickstarts (Endo > Xiaflex DC)',
         'axid.com (Amneal > Axid)',
         'unithroidhcp.com (Amneal > Unithroid)',
@@ -125,6 +126,7 @@ export default {
         'radicavawebinar.com (MTPA > Radicava)',
         'knownk.com (Dompe > Oxervate DSE)',
         'oxervate.com/hcp (Dompe > Oxervate)',
+        'oxervate.com/ (Dompe > Oxervate)',
         'moors clinical trials (Janssen > Esketimine)',
         'lialda 10 year (Shire > Lialda)',
         'built for me (Sunovian)',
@@ -144,7 +146,9 @@ export default {
         'amgencongresses.com (Amgen > Virtual Congresses Platform)',
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
-        'amgensupportplus.com (Amgen)',
+        'amgensupportplus.com 1.0 (Amgen)',
+        'amgensupportplus.com 2.0 (Amgen)',
+        // 'amgensupportplus.com 3.0 (Amgen)',
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
@@ -152,11 +156,15 @@ export default {
         // 'zolbe hcp US (Astellas > Vyloy/Zolbe)',
         // 'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)',
         'cuvitruhcp.com (Takeda > Cuvitru)',
-        'hyqviahcp.com (Takeda > HyQvia)',
-        // hyqviacidp.com (Takeda > HyQvia > CIDP)', (q3 2023)
-        // hyqviacidp.com/hcp (Takeda > HyQvia > CIDP)', (q3 2023)
-        // 'cuvitru.com (Takeda > Cuvitru)', (q2 2023)
-        'hyqvia.com (Takeda > HyQvia)',
+        'cuvitru.com (Takeda > Cuvitru)',
+        'hyqvia.com (Takeda > HyQvia PI only)',
+        'hyqviahcp.com (Takeda > HyQvia PI only)',
+        'hyqvia.com (Takeda > HyQvia PI PEDs)',
+        'hyqviahcp.com (Takeda > HyQvia PI PEDs)',
+        // hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)', Q3 2023
+        // hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)', Q3 2023
+        // 'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
+        // 'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
         // 'IDN Site (Takeda > PDT)', (q4 2023)
         // 'glassialiquid.com' (Takeda > Glassia),
         // 'glassialiquid.com/hcp (Takeda > Glassia)',
@@ -171,13 +179,12 @@ export default {
         'cuseemewisondisease.com (Alexion > Wilson Disease DSE)',
         'SeroquelXR.com (AZ > Seroquel)',
         'Forxiga - The Meryl Experience (AZ > Forxiga)',
-        // 'Andexxa (AZ > Andexxa)',
-        'amgensupportplus.com (Amgen > AmgenSupportPlus)',
         'amgenassist.com (Amgen > AmgenAssist)',
         'oxervate.com (Dompe > Oxervate)',
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
         'lillyloxooncologypipeline.com (Lilly > Loxo)',
+        // 'lillyloxooncologypipeline.com Phase 2 (Lilly > Loxo)',
         'saluda.com (Saluda Medical > Evoke)',
         'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Regeneron)',
         'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Regeneron)',
@@ -196,12 +203,20 @@ export default {
         'evenity.ca (Amgen Canada > Evenity)',
         'evenity.ca/hcp (Amgen Canada > Evenity)',
         'boneattackinosteoporosis.ca (Amgen Canada > ?)',  
-        // 'Quest Diagnostics PCP AEM Landing Page (QD > PCP)',
-        // 'Quest Diagnostics AD Detect AEM Landing Page (QD > Ad-Detect)',
+        'Quest Diagnostics PCP AEM Landing Page (QD > PCP)',
+        'Quest Diagnostics AD Detect AEM Landing Page (QD > Ad-Detect)',
         // 'Aranesp Neph Hub (Amgen > Aranesp)',
         // 'Spherico Agency Site (Syneos > Spherico)',
         // 'GSW Agency Site (Syneos > GSW)',
-        // 'Gilead Cloud Page (Gilead > ?)',
+        'Gilead Cloud Page (Gilead > ?)',
+        // nexlizethcp.com'(Esperion > Nexlizet/Nexletol)',
+        // nexlizet.com (Esperion > Nexlizet/Nexletol),
+        // Ozempic Unbranded Canada Site,
+        // Vyvanse HCP Canada Site,
+        // Vyvanse Patient Canada Site,
+        // Vyvanse Unbranded Canada Site,
+        'newheartvalve.com/ (Edwards > TAVR)',
+        'edwards.com/ (Edwards)',
       ],
       ivas: [
         'mtpa human body en-us',
@@ -248,7 +263,6 @@ export default {
         'ipsen dysport multi-indication v1.0',
         'ipsen dysport multi-indication v1.1',
         'ipsen dysport multi-indication v2.0 - framework overhaul',
-        // 'janssen dse (carousel not veeva)', ON HOLD
         'takeda hyqvia main',
         'takeda cuvitru main',
         'takeda cuvitru needlestick calculator',
