@@ -153,16 +153,16 @@ export default {
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
         'gastriccancerbiomarkers.com GLOBAL (Astellas > Zolbe)',
-        // 'zolbe hcp US (Astellas > Vyloy/Zolbe)',
-        // 'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)',
+        'zolbe hcp US (Astellas > Vyloy/Zolbe)',
+        'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)',
         'cuvitruhcp.com (Takeda > Cuvitru)',
         'cuvitru.com (Takeda > Cuvitru)',
         'hyqvia.com (Takeda > HyQvia PI only)',
         'hyqviahcp.com (Takeda > HyQvia PI only)',
         'hyqvia.com (Takeda > HyQvia PI PEDs)',
         'hyqviahcp.com (Takeda > HyQvia PI PEDs)',
-        // hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)', Q3 2023
-        // hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)', Q3 2023
+        'hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)','
+        'hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)','
         // 'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
         // 'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
         // 'IDN Site (Takeda > PDT)', (q4 2023)
@@ -263,6 +263,7 @@ export default {
         'ipsen dysport multi-indication v1.0',
         'ipsen dysport multi-indication v1.1',
         'ipsen dysport multi-indication v2.0 - framework overhaul',
+        // 'ipsen dysport multi-indication v2.1',
         'takeda hyqvia main',
         'takeda cuvitru main',
         'takeda cuvitru needlestick calculator',
@@ -297,7 +298,8 @@ export default {
         'omeros eisthreat.com panel',
         'omeros moa video panel',
         'CTI Bone on Fire Dreamoc',
-        'The Art of Healing > Lilly Paint By Numbers'
+        'The Art of Healing > Lilly Paint By Numbers',
+        // 'Vyloy Branded HCP'
       ],
       titles: [
         {
