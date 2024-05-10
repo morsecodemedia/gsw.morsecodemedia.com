@@ -148,7 +148,7 @@ export default {
         'amjevitapro.com (Amgen > Amjevita)',
         'amgensupportplus.com 1.0 (Amgen)',
         'amgensupportplus.com 2.0 (Amgen)',
-        // 'amgensupportplus.com 3.0 (Amgen)',
+        'amgensupportplus.com 3.0 (Amgen)',
         // 'omeras yartelmea ves site', ON HOLD
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
@@ -163,13 +163,15 @@ export default {
         'hyqviahcp.com (Takeda > HyQvia PI PEDs)',
         'hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)','
         'hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)','
-        // 'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
-        // 'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
-        // 'IDN Site (Takeda > PDT)', (q4 2023)
-        // 'glassialiquid.com' (Takeda > Glassia),
-        // 'glassialiquid.com/hcp (Takeda > Glassia)',
+        'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
+        'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
+        'IDN Site (Takeda > PDT)', (q4 2023)
+        'glassialiquid.com' (Takeda > Glassia),
+        'glassialiquid.com/hcp (Takeda > Glassia)',
         // 'gammagard.com/hcp (Takeda > Gammagard)',
         // 'gammagard.com (Takeda > Gammagard)'
+          // 'gattexhcp.com (Takeda > Gattex)',
+          // 'gattex.com (Takeda > Gattex)',
         'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
         'dysport.com (Ipsen > Dysport)',
         'dysporthcp.com (Ipsen > Dysport)',
@@ -184,7 +186,7 @@ export default {
         'amjevita.com (Amgen > Amjevita)',
         'amjevitapro.com (Amgen > Amjevita)',
         'lillyloxooncologypipeline.com (Lilly > Loxo)',
-        // 'lillyloxooncologypipeline.com Phase 2 (Lilly > Loxo)',
+        'lillyloxooncologypipeline.com Phase 2 (Lilly > Loxo)',
         'saluda.com (Saluda Medical > Evoke)',
         'regenerononcmedicalbooth.com (ASH 2021 Hematology Pipeline - Regeneron)',
         'regenerononcmedicalbooth.com (EHA 2022 Hematology Pipeline - Regeneron)',
@@ -205,9 +207,10 @@ export default {
         'boneattackinosteoporosis.ca (Amgen Canada > ?)',  
         'Quest Diagnostics PCP AEM Landing Page (QD > PCP)',
         'Quest Diagnostics AD Detect AEM Landing Page (QD > Ad-Detect)',
-        // 'Aranesp Neph Hub (Amgen > Aranesp)',
-        // 'Spherico Agency Site (Syneos > Spherico)',
-        // 'GSW Agency Site (Syneos > GSW)',
+        'Quest Diagnostics Employer Colorectal Screening  AEM Landing Page (QD)',
+        'Aranesp Neph Hub (Amgen > Aranesp)',
+        'Spherico Agency Site (Syneos > Spherico)',
+        'GSW Agency Site (Syneos > GSW)',
         'Gilead Cloud Page (Gilead > ?)',
         // nexlizethcp.com'(Esperion > Nexlizet/Nexletol)',
         // nexlizet.com (Esperion > Nexlizet/Nexletol),
