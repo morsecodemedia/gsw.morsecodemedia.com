@@ -91,7 +91,7 @@ export default {
       acquisitions: 2, // INC/inVentiv->Syneos, VC takes over Syneos goes Private
       managingDirectors: 9, // Lynn Dinsmore, Melissa Marrow, Sam C, Jon Nelson, Nancy Finer, Chris Mizek, Sonja Foster-Storch, Andrew Schirmer, Jen Oleski
       companyPresidents: 4, // Marcy, Sunny, JD,
-      bosses: 4, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman
+      bosses: 5, // Jay Karr, James Tomasino, Sam Cannizzaro, Bryan Roman, Bill Bright
       children: 2,
       pitches: 3, // Dysport Connect, AZ Accessibility, Genicos > Odyssey TX,
       pitchesWon: 1,
@@ -153,25 +153,25 @@ export default {
         // 'omeras dse ves site', ON HOLD
         'gastriccancerbiomarkers.com US (Astellas > Zolbe)',
         'gastriccancerbiomarkers.com GLOBAL (Astellas > Zolbe)',
-        'zolbe hcp US (Astellas > Vyloy/Zolbe)',
-        'zolbe hcp GLOBAL (Astellas > Vyloy/Zolbe)',
+        'vyloyhcp.com US (Astellas > Vyloy/Zolbe)',
+        'vyloyhcp.com GLOBAL (Astellas > Vyloy/Zolbe)',
         'cuvitruhcp.com (Takeda > Cuvitru)',
         'cuvitru.com (Takeda > Cuvitru)',
         'hyqvia.com (Takeda > HyQvia PI only)',
         'hyqviahcp.com (Takeda > HyQvia PI only)',
         'hyqvia.com (Takeda > HyQvia PI PEDs)',
         'hyqviahcp.com (Takeda > HyQvia PI PEDs)',
-        'hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)','
-        'hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)','
-        'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
-        'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)', Q1 2024
-        'IDN Site (Takeda > PDT)', (q4 2023)
-        'glassialiquid.com' (Takeda > Glassia),
+        'hyqviacidp.com (Takeda > HyQvia > CIDP Day 0/1)',
+        'hyqviacidp.com/hcp (Takeda > HyQvia > CIDP Day 0/1)',
+        'hyqviahcp.com (Takeda > HyQvia PI/CIDP Indications)',
+        'hyqvia.com (Takeda > HyQvia PI/CIDP Indications)',
+        'IDN Site (Takeda > PDT)', 
+        'glassialiquid.com (Takeda > Glassia)',
         'glassialiquid.com/hcp (Takeda > Glassia)',
         // 'gammagard.com/hcp (Takeda > Gammagard)',
         // 'gammagard.com (Takeda > Gammagard)'
-          // 'gattexhcp.com (Takeda > Gattex)',
-          // 'gattex.com (Takeda > Gattex)',
+        // 'gattexhcp.com (Takeda > Gattex)',
+        // 'gattex.com (Takeda > Gattex)',
         'api.dysport.com (API - Ipsen Dysport Specialist Locator)',
         'dysport.com (Ipsen > Dysport)',
         'dysporthcp.com (Ipsen > Dysport)',
@@ -212,14 +212,26 @@ export default {
         'Spherico Agency Site (Syneos > Spherico)',
         'GSW Agency Site (Syneos > GSW)',
         'Gilead Cloud Page (Gilead > ?)',
-        // nexlizethcp.com'(Esperion > Nexlizet/Nexletol)',
-        // nexlizet.com (Esperion > Nexlizet/Nexletol),
+        'nexlizethcp.com (Esperion > Nexlizet/Nexletol)',
+        'nexlizet.com (Esperion > Nexlizet/Nexletol),
         // Ozempic Unbranded Canada Site,
         // Vyvanse HCP Canada Site,
         // Vyvanse Patient Canada Site,
         // Vyvanse Unbranded Canada Site,
         'newheartvalve.com/ (Edwards > TAVR)',
         'edwards.com/ (Edwards)',
+        //'takeda hem idn website',
+        //'hyqvia 10year birthday update hcp',
+        //'hyqvia 10year birthday update dtc',
+        //'otsuka igan simulator - pathogenesis',
+        //'otsuka igan simulator - patient stories - hcp',
+        //'otsuka igan simulator - patient stories - patient',
+        //'microbiome labs',
+        //'chronic disease edu',
+        'merz xeomin',
+        //'b+l payer website',
+        //'lumakrashcp.com',
+        
       ],
       ivas: [
         'mtpa human body en-us',
@@ -266,12 +278,17 @@ export default {
         'ipsen dysport multi-indication v1.0',
         'ipsen dysport multi-indication v1.1',
         'ipsen dysport multi-indication v2.0 - framework overhaul',
-        // 'ipsen dysport multi-indication v2.1',
+        'ipsen dysport multi-indication v2.1',
         'takeda hyqvia main',
         'takeda cuvitru main',
         'takeda cuvitru needlestick calculator',
         'You Can Do That In Veeva? Presentation',
-        'CTI Bone On Fire Veeva'
+        'CTI Bone On Fire Veeva',
+        'HyQvia CIDP IVA',
+        'ozempic ca-en',
+        'ozempic ca-fr',
+        'rybelsus ca-en',
+        'rybelsus ca-fr'
       ],
       confPanels: [
         'rad 1',
@@ -302,7 +319,8 @@ export default {
         'omeros moa video panel',
         'CTI Bone on Fire Dreamoc',
         'The Art of Healing > Lilly Paint By Numbers',
-        // 'Vyloy Branded HCP'
+        'Vyloy Branded HCP',
+        'Alpha1 Challenge'
       ],
       titles: [
         {
